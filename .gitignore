@@ -1,0 +1,11 @@
+# image data and run outputs are not part of the repository
+data/*
+!data/.gitkeep
+checkpoints/
+checkpoints_smoke/
+results/
+*.pth
+
+# python / jupyter
+__pycache__/
+.ipynb_checkpoints/
