@@ -37,7 +37,13 @@ The data are not part of this repository.
 
 ## Running
 
-Python 3.9 with PyTorch 2.x (CUDA), NumPy, SciPy, scikit-image, nibabel, pandas, matplotlib and Jupyter. Set `SMOKE = True` in the first code cell for a quick pipeline check (2-epoch models), `SMOKE = False` for the full experiments. Trained checkpoints are written to `checkpoints/` and reused on later runs; all metrics are collected in `results/registry.csv`.
+Python 3.9 or later. Install PyTorch with the CUDA build matching your driver (see the comment in `requirements.txt`), then
+
+```
+pip install -r requirements.txt
+```
+
+Set `SMOKE = True` in the first code cell for a quick pipeline check (2-epoch models), `SMOKE = False` for the full experiments. Trained checkpoints are written to `checkpoints/` and reused on later runs; all metrics are collected in `results/registry.csv`.
 
 ## Status
 
